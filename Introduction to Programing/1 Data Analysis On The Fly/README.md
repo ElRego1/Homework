@@ -1,4 +1,4 @@
-# Data Analysis On The Fly
+# Data Analysis On The Fly - 2018
 	The pdf contains the homework task.
 	Hw1.zip  		- homework archive;
 	checker.zip 	- checker archive;

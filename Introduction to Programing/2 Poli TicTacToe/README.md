@@ -1,4 +1,4 @@
-# Poli TicTacToe
+# Poli TicTacToe - 2018
 	The pdf contains the homework task.
 	Hw2.zip			- homework archive;
 	checker.zip		- checker archive;
