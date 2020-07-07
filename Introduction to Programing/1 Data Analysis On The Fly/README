@@ -1,0 +1,13 @@
+Codul explicat pe scurt:
+
+Problema 1 - Histograma:
+1. Citesc valorile si le pun in cele 21 de variabile si odata ce primesc numarul de episoade fac regula de 3 simpla (prin functia "creazaStea") imediat ca sa nu trebuiasca sa stochez valoarea aceea.
+2. Intru in functia "stepOne" ca sa nu am mai mult de 80 de randuri in "main".
+3. Sortez printre variabile dupa ordinea serialelor care a fost stocata in xi-uri, cu i de la 0 la 9 si intru in functia "stepTwo" ca sa nu am mai mult de 80 de randuri in functie.
+4. Intru intr-un for unde voi apela functia "printConditionat" pe care o voi apela de 10 ori pentru fiecare i.
+p.s. Multe parti din cod au fost scrise de alt cod scris si copiate. Am introdus segmentele de cod la finalul sursei, comentate ofc.
+
+Problema 2 - Vampirul componentelor electronice:
+1. In timp ce valorile sunt introduce, calculez partial mediile si valoarea maxima si minima si numar de cate ori apare fiecare si cea mai lung sir de valori crescatoare.
+2. Dupa ce ies din forul in care citeam valorile imi fac mediile si calculez o forma diferita a lui "stdev" care are nevoie numai de media patratica si media aritmetica. Pentru prelucrarea formulei, aici e link ul: https://goo.gl/8ymTMM
+3. Printez cu precizie de 4 zecimale rezultatele.

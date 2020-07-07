@@ -1,0 +1,10 @@
+Poli TicTacToe
+
+Pasul I.   Citesc valorile, le pun in matricile mele dinamice conform regulilor prestabilite si afisez orice mesaj de eroare aferent.
+Pasul II.  Verific castigatorul macroboardului.
+Pasul III. Afisez atentia calculata de Gigel.
+
+Pentru legatura dintre functii am realizat aceasta schema care mi-a fost foarte utila: https://drive.google.com/file/d/1-OKzGYQmMRMTc52otgKZwcXZwamH70FQ/view?usp=sharing (versiunea finala)
+
+P.S. Nu exista un test unde boardul sa se faca full printr-o insertie valida. Am omis acest caz initial in program (ulterior am adaugat functia "check_if_full_after_good_insertion") si daca boardul s-ar fi completat printr-o insertie valida, nu s-ar fi aratat mesajul "FULL BOARD" decat daca ar mai fi fost introdusa o alta valoare. Acea noua valoare ar fi fost interpretata de erori si ar fi putut aparea mesajul de "Invalid Index" sau "Not your turn" si decat ulterior sa mai fi aparut mesajul de "FULL BOARD".
+Doar am dorit sa mentionez ca nu a ezistat acest caz care ar fi putut crea un bug.

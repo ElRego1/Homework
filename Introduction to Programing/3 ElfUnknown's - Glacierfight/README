@@ -1,0 +1,21 @@
+ElfUnknown's - Glacierfight
+
+Pasul 1: Citesc marimea ghetarului si o aloc dinamic.
+Pasul 2: Citesc spiridusii din fisier si ii salvez in memorie si in acelasi timp si verific unde cad si daca pica pe ghetar.
+Pasul 3: Incep sa citesc fisierul si sa fac ce imi spun comenzile.
+
+"MOVE" La aceasta comanda citesc spiridusul care o va face si citesc modul lui de miscare pe care il salvez intr-un vector. Incerc sa fac fiecare miscare pe ran, mai intai verific
+		daca am destula stamina, dupa verific daca se mai afla pe ghetar si dupa verific daca se lupta cu cineva. Daca s a luptat si a castigat, se opreste din miscat. Daca nu,
+		continua sa se miste cu talent astfel incat daca nu poate sa faca o miscare din cauza staminei mici, o sa faca alta miscare daca mai are in vector, pt care are destula stamina.
+		
+"SNOWSTORM" La aceasta comanda il citesc pe K, ii stochez octetii intr-un vector static unsigned char si imi iau de acolo tot ce am nevoie. Trec prin toti spiridusii sa vad daca
+		este lovit vre unul si aplic damage-el si l dau afara de pe ghetar daca e nevoie.
+		
+"MELTDOWN" La aceasta comanda vad cine cada de pe ghetar, la cine ramane ii adaug stamina si apoi realoc matricea frumos si dragut si safe ca sa nu-mi iau segfault si apoi dau free
+		la ce am renuntat din memorie ca sa nu infuriem spiridusii.
+		
+"PRINT_SCOREBOARD" La aceasta comanda imi fac un vector de id-uri pe care-l ordonez. id-urile vor fi ordonate astfel incat, daca iei numele asociate id-urilor acestea vor fi in 
+		ordine lexicografica. Caut cel mai mare numar de killuri al unui spiridus si incep sa afisez score board-ul mai intai pe cei uscati, apoi dupa ordinea # de killuri si apoi 
+		dupa nume.
+		
+La finalul fiecarei comenzi verific daca nu cumva a ramas un singur spiridus sau chiar nici unul ca sa ma opresc.
