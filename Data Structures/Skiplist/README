@@ -1,0 +1,33 @@
+Tema1_Structuri_de_Date
+Copyright Robert Lica robertlica21@gmail.com
+
+!!!!****!!!!
+In make operations, de la linia 31, am 2 foruri aparent inutile ce dau warning,
+    am explicat acolo ce este cu ele.
+!!!!****!!!!
+
+Node:
+	Pe nivelul de baza al skiplist-ului nu exista 2 noduri cu acelasi id si
+        acestea au pointeri la alte noduri probabile
+
+Skiplist-ul:
+	Utilizare:
+		Este folosit la ordonarea jucatorilor dupa numarul de puncte
+			obtinute si ulterior dupa id-ul lor.
+		Pentru inserarea dupa punctaj (si ulterior dupa id) se coboara din
+			coltul cel mai de stanga sus pentru a profita de rapiditatea de
+			inserare a skiplist-ului.
+	Implementare:
+		Un vector de noduri care simbolizeaza capatul se gasesc pe partea
+			sganga, iar legatura nodurilor la null pe partea dreapta
+			simblolizeaza celalalt capat.
+
+HashMap:
+    Nu este neaparat un HashMap, dar este foarte asemanator. Este un vector de
+        liste pe care il folosesc sa ordonez timpii si pentru aceasta am avut
+        nevoie de o functie de hash injectiva si de aici am
+        folosit f(x) = x cu x in intervalul [1, 500] conform observatiilor
+        fisierului de intrare
+
+Explicatie schematica:
+drive.google.com/file/d/1-OKzGYQmMRMTc52otgKZwcXZwamH70FQ/view?usp=sharing

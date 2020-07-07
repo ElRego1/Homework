@@ -1,0 +1,61 @@
+To run the checker, all you have to do is execute the "./run_all.sh" command.
+This command compiles your source files, then compiles the test source files
+(present in the _test folder) and runs all the test executables newly created.
+Then the checker collects all the test scores and adds them up.
+
+If you want to run the checker after changing your implementation files, all
+you have to do is run the same command again. The checker will run the Makefile
+so you won't have to do so manually.
+
+To run the coding style checker, you can run the
+"./cpplint.py *.cpp *.h" command. The run_all.sh script also checks
+your coding style and scales your score accordingly.
+
+The archive you have to upload to vmchecker should contain:
+- README, describing the implementation and personal contributions of team
+members
+- aegraph.cpp
+
+//-----------------------------------------------------------------------------
+@copyright Lica Robert-Mihai & Popescu Diana-Elena
+email: licarobert21@gmail.com
+
+We have modified the "aegraph.h" file to add our functions's definitions
+
+Logic for each task:
+Task1 by LR, debugging by PD:
+	* vector "parcurgere" to keep the path to a possible double cut
+	* vector "info" - keep valid paths from "parcurgere"
+	* I made a recursive function to go deeper in graph and to remember 2 
+consecutive not edges where a double cut can be made
+-------------------------------------------------------------------------------
+Task2 by PD:
+	* I made a pointer tmp as reference to m and used it to get one edge
+above the subgraph or atom intended to be pushed up in the graph
+	* I kept in p the specific element
+	* I attached back all the atoms and subgraphs 
+	* I deleted the subgraph
+------------------------------------------------------------------------------
+Task3 by LR:
+	* I used the logic of rebuilding the path, as I get out of the recursive
+function, as done in the "get_paths_to" function.
+------------------------------------------------------------------------------
+Task4 by LR, debugging by PD:
+	* In order to erase we go in te graph on the path that is provided and
+produce an eraseure in the "subgraphs" or "atoms" vector.
+------------------------------------------------------------------------------
+Task5 by LR:
+	* We go in a subgrapgh from the root and look for it in the other part of
+the graph to se if it exists. If it exists we take the path and store it and
+return it later.
+------------------------------------------------------------------------------
+Task6 by LR:
+	* In order to erase we go in te graph on the path that is provided and
+produce an eraseure in the "subgraphs" or "atoms" vector.
+------------------------------------------------------------------------------
+Task7 and problems faced:	
+	* We initialy added in .h a string safe_origin to which in the constructor
+we gave the value of the string to process. The problem was, that after the
+deiterations, the string remained modified.
+	* solution: when needed in task we just recreated out own grapgh to work
+on and return: "AEGraph p = *this;".
