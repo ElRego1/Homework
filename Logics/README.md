@@ -1,3 +1,4 @@
 # Final state machine
- We had to create a final state machine that would accomplish it's purpose. I chose to design a machine that would inject the human with the requaiered hormones for happiness: endomorphin, seratonin, dopamin and oxitocin.
+	We had to create a final state machine that would accomplish it's purpose. I chose to design a machine that
+would inject the human with the requaiered hormones for happiness: endomorphin, seratonin, dopamin and oxitocin.
  
