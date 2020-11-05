@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="863.2214351851859" y="2267.0">com.tema1.gameLogic.Game</node>
+    <node x="402.0084854497358" y="426.0">com.tema1.goods.LegalGoods</node>
+    <node x="1464.660479497355" y="1969.0">com.tema1.main.GameInput</node>
+    <node x="818.8107242063495" y="736.5">com.tema1.player.inventory.Cards</node>
+    <node x="598.1381018518525" y="1902.0">com.tema1.player.BribePlayer</node>
+    <node x="313.75" y="692.0">com.tema1.goods.GoodsFactory</node>
+    <node x="166.46563822751375" y="1446.5">com.tema1.player.BasicComparator</node>
+    <node x="1066.3821527777782" y="582.0">com.tema1.common.Constants</node>
+    <node x="70.00848544973576" y="415.0">com.tema1.goods.IllegalGoods</node>
+    <node x="1526.769054232805" y="2634.0">com.tema1.main.Main</node>
+    <node x="754.9525363756613" y="1181.0">com.tema1.player.AbstractPlayer</node>
+    <node x="181.29419973545004" y="1957.5">com.tema1.player.BasicPlayer</node>
+    <node x="487.70253637566134" y="0.0">com.tema1.goods.GoodsType</node>
+    <node x="294.7227711640216" y="162.0">com.tema1.goods.Goods</node>
+    <node x="1496.9819444444443" y="2366.5">com.tema1.main.GameInputLoader</node>
+    <node x="1098.1194444444445" y="1957.5">com.tema1.player.GreedyPlayer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.tema1.goods.GoodsFactory" target="com.tema1.goods.LegalGoods">
+      <point x="74.25" y="-114.5" />
+      <point x="487.0" y="562.0" />
+      <point x="507.5084854497358" y="562.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="com.tema1.player.BribePlayer" target="com.tema1.player.inventory.Cards">
+      <point x="-20.75" y="-147.5" />
+      <point x="743.3881018518525" y="1822.0" />
+      <point x="744.4525363756613" y="1822.0" />
+      <point x="744.4525363756613" y="1111.0" />
+      <point x="893.4535813492066" y="1111.0" />
+      <point x="-29.85714285714289" y="70.0" />
+    </edge>
+    <edge source="com.tema1.goods.GoodsFactory" target="com.tema1.goods.Goods">
+      <point x="-24.75" y="-114.5" />
+      <point x="388.0" y="562.0" />
+      <point x="380.5084854497358" y="562.0" />
+      <point x="380.5084854497358" y="385.0" />
+      <point x="399.2227711640216" y="385.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="com.tema1.player.BribePlayer" target="com.tema1.common.Constants">
+      <point x="145.25" y="-147.5" />
+      <point x="909.3881018518525" y="1882.0" />
+      <point x="1136.1103240740747" y="1882.0" />
+      <point x="1136.1103240740747" y="1161.0" />
+      <point x="1227.8821527777782" y="1161.0" />
+      <point x="0.0" y="224.5" />
+    </edge>
+    <edge source="com.tema1.goods.IllegalGoods" target="com.tema1.goods.GoodsType">
+      <point x="-112.5" y="-58.5" />
+      <point x="107.50848544973576" y="365.0" />
+      <point x="205.2227711640216" y="365.0" />
+      <point x="205.2227711640216" y="122.0" />
+      <point x="522.7025363756613" y="122.0" />
+      <point x="-20.0" y="36.0" />
+    </edge>
+    <edge source="com.tema1.player.BasicPlayer" target="com.tema1.goods.GoodsFactory">
+      <point x="-94.85714285714289" y="-92.0" />
+      <point x="252.43705687830715" y="1872.0" />
+      <point x="60.82278108465664" y="1872.0" />
+      <point x="60.82278108465664" y="1071.0" />
+      <point x="363.25" y="1071.0" />
+      <point x="-49.5" y="114.5" />
+    </edge>
+    <edge source="com.tema1.player.BribePlayer" target="com.tema1.goods.GoodsType">
+      <point x="-62.25" y="-147.5" />
+      <point x="701.8881018518525" y="1782.0" />
+      <point x="623.5084854497359" y="1782.0" />
+      <point x="623.5084854497359" y="132.0" />
+      <point x="562.7025363756613" y="132.0" />
+      <point x="20.0" y="36.0" />
+    </edge>
+    <edge source="com.tema1.player.BasicPlayer" target="com.tema1.common.Constants">
+      <point x="47.428571428571445" y="-92.0" />
+      <point x="394.7227711640215" y="1822.0" />
+      <point x="446.07753637566134" y="1822.0" />
+      <point x="446.07753637566134" y="1141.0" />
+      <point x="1098.682152777778" y="1141.0" />
+      <point x="-129.20000000000005" y="224.5" />
+    </edge>
+    <edge source="com.tema1.player.inventory.Cards" target="com.tema1.goods.GoodsType">
+      <point x="52.25" y="-70.0" />
+      <point x="975.5607242063495" y="562.0" />
+      <point x="882.0607242063495" y="562.0" />
+      <point x="882.0607242063495" y="112.0" />
+      <point x="582.7025363756613" y="112.0" />
+      <point x="40.0" y="36.0" />
+    </edge>
+    <edge source="com.tema1.player.BasicPlayer" target="com.tema1.player.inventory.Cards">
+      <point x="0.0" y="-92.0" />
+      <point x="347.29419973545004" y="1812.0" />
+      <point x="435.07753637566134" y="1812.0" />
+      <point x="435.07753637566134" y="1101.0" />
+      <point x="863.5964384920637" y="1101.0" />
+      <point x="-59.71428571428578" y="70.0" />
+    </edge>
+    <edge source="com.tema1.main.Main" target="com.tema1.main.GameInput">
+      <point x="54.75" y="-36.5" />
+      <point x="1654.519054232805" y="2614.0" />
+      <point x="1728.4819444444443" y="2614.0" />
+      <point x="1728.4819444444443" y="2247.0" />
+      <point x="1707.035479497355" y="2247.0" />
+      <point x="103.875" y="80.5" />
+    </edge>
+    <edge source="com.tema1.gameLogic.Game" target="com.tema1.player.BribePlayer">
+      <point x="-33.60000000000002" y="-158.5" />
+      <point x="941.6214351851859" y="2217.0" />
+      <point x="764.1381018518525" y="2217.0" />
+      <point x="0.0" y="147.5" />
+    </edge>
+    <edge source="com.tema1.player.BribePlayer" target="com.tema1.goods.GoodsFactory">
+      <point x="-103.75" y="-147.5" />
+      <point x="660.3881018518525" y="1792.0" />
+      <point x="490.20253637566134" y="1792.0" />
+      <point x="490.20253637566134" y="1081.0" />
+      <point x="429.25" y="1081.0" />
+      <point x="16.5" y="114.5" />
+    </edge>
+    <edge source="com.tema1.player.GreedyPlayer" target="com.tema1.common.Constants">
+      <point x="83.0" y="-92.0" />
+      <point x="1347.1194444444445" y="1882.0" />
+      <point x="1303.8771461640217" y="1882.0" />
+      <point x="1303.8771461640217" y="1161.0" />
+      <point x="1292.482152777778" y="1161.0" />
+      <point x="64.59999999999991" y="224.5" />
+    </edge>
+    <edge source="com.tema1.goods.LegalGoods" target="com.tema1.goods.GoodsType">
+      <point x="70.33333333333337" y="-47.5" />
+      <point x="577.8418187830691" y="395.0" />
+      <point x="595.6751521164026" y="395.0" />
+      <point x="595.6751521164026" y="142.0" />
+      <point x="552.7025363756613" y="142.0" />
+      <point x="10.0" y="36.0" />
+    </edge>
+    <edge source="com.tema1.gameLogic.Game" target="com.tema1.goods.GoodsType">
+      <point x="-100.80000000000007" y="-158.5" />
+      <point x="874.4214351851858" y="2247.0" />
+      <point x="0.0" y="2247.0" />
+      <point x="0.0" y="92.0" />
+      <point x="492.70253637566134" y="92.0" />
+      <point x="-50.0" y="36.0" />
+    </edge>
+    <edge source="com.tema1.player.GreedyPlayer" target="com.tema1.player.inventory.Cards">
+      <point x="27.666666666666742" y="-92.0" />
+      <point x="1291.786111111111" y="1882.0" />
+      <point x="1254.493263888889" y="1882.0" />
+      <point x="1254.493263888889" y="1051.0" />
+      <point x="1012.8821527777782" y="1051.0" />
+      <point x="89.57142857142867" y="70.0" />
+    </edge>
+    <edge source="com.tema1.player.BasicComparator" target="com.tema1.player.inventory.Cards">
+      <point x="61.0" y="-25.0" />
+      <point x="318.96563822751375" y="1091.0" />
+      <point x="833.7392956349208" y="1091.0" />
+      <point x="-89.57142857142856" y="70.0" />
+    </edge>
+    <edge source="com.tema1.player.GreedyPlayer" target="com.tema1.gameLogic.Game">
+      <point x="83.0" y="92.0" />
+      <point x="1347.1194444444445" y="2227.0" />
+      <point x="1031.2214351851858" y="2227.0" />
+      <point x="56.0" y="-158.5" />
+    </edge>
+    <edge source="com.tema1.gameLogic.Game" target="com.tema1.player.AbstractPlayer">
+      <point x="-11.200000000000045" y="-158.5" />
+      <point x="964.0214351851859" y="2247.0" />
+      <point x="967.8223743386247" y="2247.0" />
+      <point x="967.8223743386247" y="1872.0" />
+      <point x="957.8414252645503" y="1872.0" />
+      <point x="36.888888888888914" y="290.5" />
+    </edge>
+    <edge source="com.tema1.goods.IllegalGoods" target="com.tema1.goods.Goods">
+      <point x="112.5" y="-58.5" />
+      <point x="332.50848544973576" y="395.0" />
+      <point x="369.3656283068787" y="395.0" />
+      <point x="-29.85714285714289" y="91.5" />
+    </edge>
+    <edge source="com.tema1.player.GreedyPlayer" target="com.tema1.player.AbstractPlayer">
+      <point x="-83.0" y="-92.0" />
+      <point x="1181.1194444444445" y="1862.0" />
+      <point x="1068.508091931217" y="1862.0" />
+      <point x="147.55555555555566" y="290.5" />
+    </edge>
+    <edge source="com.tema1.player.BribePlayer" target="com.tema1.player.BasicComparator">
+      <point x="-145.25" y="-147.5" />
+      <point x="618.8881018518525" y="1802.0" />
+      <point x="303.71563822751375" y="1802.0" />
+      <point x="45.75" y="25.0" />
+    </edge>
+    <edge source="com.tema1.player.BasicPlayer" target="com.tema1.player.BasicComparator">
+      <point x="-47.42857142857133" y="-92.0" />
+      <point x="299.8656283068787" y="1862.0" />
+      <point x="212.21563822751375" y="1862.0" />
+      <point x="-45.75" y="25.0" />
+    </edge>
+    <edge source="com.tema1.goods.GoodsFactory" target="com.tema1.goods.IllegalGoods">
+      <point x="-74.25" y="-114.5" />
+      <point x="338.5" y="562.0" />
+      <point x="220.00848544973576" y="562.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="com.tema1.gameLogic.Game" target="com.tema1.common.Constants">
+      <point x="78.40000000000009" y="-158.5" />
+      <point x="1053.6214351851859" y="2237.0" />
+      <point x="1447.659930555556" y="2237.0" />
+      <point x="1447.659930555556" y="1161.0" />
+      <point x="1357.082152777778" y="1161.0" />
+      <point x="129.20000000000005" y="224.5" />
+    </edge>
+    <edge source="com.tema1.goods.Goods" target="com.tema1.goods.GoodsType">
+      <point x="-52.25" y="-91.5" />
+      <point x="346.9727711640216" y="132.0" />
+      <point x="532.7025363756613" y="132.0" />
+      <point x="-10.0" y="36.0" />
+    </edge>
+    <edge source="com.tema1.gameLogic.Game" target="com.tema1.player.BasicPlayer">
+      <point x="-56.0" y="-158.5" />
+      <point x="919.2214351851859" y="2227.0" />
+      <point x="347.29419973545004" y="2227.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="com.tema1.player.GreedyPlayer" target="com.tema1.goods.GoodsType">
+      <point x="138.33333333333326" y="-92.0" />
+      <point x="1402.4527777777776" y="1882.0" />
+      <point x="1405.094203042328" y="1882.0" />
+      <point x="1405.094203042328" y="102.0" />
+      <point x="592.7025363756613" y="102.0" />
+      <point x="50.0" y="36.0" />
+    </edge>
+    <edge source="com.tema1.player.BribePlayer" target="com.tema1.player.AbstractPlayer">
+      <point x="103.75" y="-147.5" />
+      <point x="867.8881018518525" y="1872.0" />
+      <point x="920.9525363756613" y="1872.0" />
+      <point x="0.0" y="290.5" />
+    </edge>
+    <edge source="com.tema1.main.GameInputLoader" target="com.tema1.main.GameInput">
+      <point x="-55.25" y="-59.0" />
+      <point x="1552.2319444444443" y="2247.0" />
+      <point x="1568.535479497355" y="2247.0" />
+      <point x="-34.625" y="80.5" />
+    </edge>
+    <edge source="com.tema1.gameLogic.Game" target="com.tema1.main.GameInput">
+      <point x="100.79999999999995" y="-158.5" />
+      <point x="1076.021435185186" y="2247.0" />
+      <point x="1499.285479497355" y="2247.0" />
+      <point x="-103.875" y="80.5" />
+    </edge>
+    <edge source="com.tema1.player.AbstractPlayer" target="com.tema1.goods.GoodsFactory">
+      <point x="-132.79999999999995" y="-290.5" />
+      <point x="788.1525363756614" y="1071.0" />
+      <point x="462.25" y="1071.0" />
+      <point x="49.5" y="114.5" />
+    </edge>
+    <edge source="com.tema1.main.Main" target="com.tema1.main.GameInputLoader">
+      <point x="18.25" y="-36.5" />
+      <point x="1618.019054232805" y="2604.0" />
+      <point x="1662.7319444444443" y="2604.0" />
+      <point x="55.25" y="59.0" />
+    </edge>
+    <edge source="com.tema1.gameLogic.Game" target="com.tema1.goods.GoodsFactory">
+      <point x="-78.40000000000009" y="-158.5" />
+      <point x="896.8214351851858" y="2237.0" />
+      <point x="11.0" y="2237.0" />
+      <point x="11.0" y="1061.0" />
+      <point x="330.25" y="1061.0" />
+      <point x="-82.5" y="114.5" />
+    </edge>
+    <edge source="com.tema1.player.BasicPlayer" target="com.tema1.goods.GoodsType">
+      <point x="-142.28571428571422" y="-92.0" />
+      <point x="205.00848544973582" y="1882.0" />
+      <point x="23.93929563492088" y="1882.0" />
+      <point x="23.93929563492088" y="102.0" />
+      <point x="502.70253637566134" y="102.0" />
+      <point x="-40.0" y="36.0" />
+    </edge>
+    <edge source="com.tema1.player.BasicComparator" target="com.tema1.goods.GoodsFactory">
+      <point x="0.0" y="-25.0" />
+      <point x="257.96563822751375" y="1081.0" />
+      <point x="396.25" y="1081.0" />
+      <point x="-16.5" y="114.5" />
+    </edge>
+    <edge source="com.tema1.player.BasicPlayer" target="com.tema1.player.AbstractPlayer">
+      <point x="142.28571428571422" y="-92.0" />
+      <point x="489.57991402116426" y="1842.0" />
+      <point x="810.2858697089946" y="1842.0" />
+      <point x="-110.66666666666663" y="290.5" />
+    </edge>
+    <edge source="com.tema1.player.BasicComparator" target="com.tema1.goods.GoodsType">
+      <point x="-61.0" y="-25.0" />
+      <point x="196.96563822751375" y="1051.0" />
+      <point x="59.50848544973576" y="1051.0" />
+      <point x="59.50848544973576" y="112.0" />
+      <point x="512.7025363756613" y="112.0" />
+      <point x="-30.0" y="36.0" />
+    </edge>
+    <edge source="com.tema1.gameLogic.Game" target="com.tema1.player.GreedyPlayer">
+      <point x="33.59999999999991" y="-158.5" />
+      <point x="1008.8214351851858" y="2217.0" />
+      <point x="1181.1194444444445" y="2217.0" />
+      <point x="-83.0" y="92.0" />
+    </edge>
+    <edge source="com.tema1.goods.LegalGoods" target="com.tema1.goods.Goods">
+      <point x="0.0" y="-47.5" />
+      <point x="507.5084854497358" y="395.0" />
+      <point x="488.79419973545015" y="395.0" />
+      <point x="89.57142857142856" y="91.5" />
+    </edge>
+    <edge source="com.tema1.player.AbstractPlayer" target="com.tema1.player.inventory.Cards">
+      <point x="-66.39999999999998" y="-290.5" />
+      <point x="854.5525363756612" y="1121.0" />
+      <point x="923.3107242063495" y="1121.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="com.tema1.player.AbstractPlayer" target="com.tema1.common.Constants">
+      <point x="132.79999999999995" y="-290.5" />
+      <point x="1053.7525363756613" y="1151.0" />
+      <point x="1163.2821527777783" y="1151.0" />
+      <point x="-64.59999999999991" y="224.5" />
+    </edge>
+    <edge source="com.tema1.main.Main" target="com.tema1.gameLogic.Game">
+      <point x="-54.75" y="-36.5" />
+      <point x="1545.019054232805" y="2614.0" />
+      <point x="975.2214351851859" y="2614.0" />
+      <point x="0.0" y="158.5" />
+    </edge>
+    <edge source="com.tema1.player.GreedyPlayer" target="com.tema1.goods.GoodsFactory">
+      <point x="-27.666666666666742" y="-92.0" />
+      <point x="1236.4527777777776" y="1882.0" />
+      <point x="1243.493263888889" y="1882.0" />
+      <point x="1243.493263888889" y="1061.0" />
+      <point x="495.25" y="1061.0" />
+      <point x="82.5" y="114.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="1290.3611111111113" y="2259.833333333332" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
